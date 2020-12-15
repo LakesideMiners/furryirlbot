@@ -84,6 +84,7 @@ pkginfo==1.5.0.1
 pluggy==0.13.1
 poetry==1.0.5
 prompt-toolkit==3.0.7
+praw==7.1.0
 protobuf==3.13.0
 ptpython==3.0.5
 ptyprocess==0.6.0
