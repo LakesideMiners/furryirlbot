@@ -2,7 +2,7 @@ import praw
 import requests
 import os
 reddit = praw.Reddit(client_id=os.environ['client_id'], client_secret=os.environ['client_secret'], user_agent=os.environ['user_agent'] )
-for submission in reddit.subreddit("furry_irl").new(limit=20):
+for submission in reddit.subreddit(os.environ['sub']).new(limit=20):
   yiff = submission.over_18
   if yiff == False:
     owop1 = submission.permalink 
